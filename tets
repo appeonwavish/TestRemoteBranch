@@ -1,0 +1,33 @@
+[xdebug]
+
+zend_extension=D:/php/php-5.4.31/ext/php_xdebug-2.2.2-5.4-vc9.dll
+
+;zend_extension= /usr/lib/php5/20090626+lfs/xdebug.so （Linux）
+
+xdebug.remote_enable=on
+
+xdebug.remote_handle=dbgp
+
+xdebug.remote_host=127.0.0.1
+
+xdeubg.remote_port=9000
+
+xdebug.idekey="ide.xdebug"
+
+Xdebug.auto_trace = on
+
+;function info formmat
+
+xdebug.profiler_enable=on
+
+;xingneng info
+
+xdebug.trace_output_dir="D:/php/php-5.4.31/xdebug"
+
+;xingneng info
+
+xdebug.profiler_output_dir="D:/php/php-5.4.31/xdebug"
+
+;xingneng info
+
+Xdebug.profiler_output_name="cachegrind.out.%p"
